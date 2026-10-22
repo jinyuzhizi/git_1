@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== ROS 2 构建产物（体积大且可重建，必须排除）=====
+build/
+install/
+log/
+*.pyc
+
+# ===== 大体积模型 / 镜像 / 压缩包（GitHub 单文件上限 100MB）=====
+*.img
+*.iso
+*.zip
+*.rar
+*.7z
+*.mp4
+*.psd
+*.nb
+*.onnx
+*.pt
+*.pth
+
+# ===== 编辑器 / 系统垃圾 =====
+.vscode/
+.idea/
+.vscode-server/
+.DS_Store
+Thumbs.db
+desktop.ini
